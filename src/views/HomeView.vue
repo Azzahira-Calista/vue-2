@@ -138,6 +138,7 @@ img {
 .sub-judul h2 {
   color: #1f1f36;
   font-family: "Caveat", cursive;
+  
 }
 .p-proses {
   text-align: left;
