@@ -1,5 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import MulaiView from '../views/MulaiView.vue'
 import LayoutOne from '../layouts/LayoutOne'
 
 const routes = [
@@ -13,7 +14,13 @@ const routes = [
         name: 'home',
         component: HomeView
       },
+      
     ]
+  },
+    {
+      path: '/mv',
+      name: '2ndpage',
+      component: MulaiView
   }
  
 ]

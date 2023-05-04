@@ -10,6 +10,7 @@ export default {};
 <style>
 .container-top {
   padding: 50px;
-  background-color: #6295A3;
+  padding-bottom: 0;
+  background-color: #6295a3;
 }
 </style>

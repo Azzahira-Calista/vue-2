@@ -63,9 +63,9 @@
           Dengan meditasi kamu dapat membuat pikiran pada dirimu mu menjadi
           lebih baik terhadap dirimu serta membangun kembali kepercayaan dirimu
         </p>
-        <a href="MulaiView.vue">
+        <router-link to="/mv">
           <div class="button">Mulai Meditasi</div>
-        </a>
+        </router-link>
       </div>
       <img alt="meditasi-img" src="../assets/RecButton.svg" />
     </div>
@@ -138,7 +138,6 @@ img {
 .sub-judul h2 {
   color: #1f1f36;
   font-family: "Caveat", cursive;
-  
 }
 .p-proses {
   text-align: left;
